@@ -1,0 +1,48 @@
+# Dependencias
+/frontend/node_modules/
+/api/node_modules/
+
+# Archivos de compilación de TypeScript
+/api/dist/
+/api/build/
+/api/*.tsbuildinfo
+/frontend/dist/
+/frontend/build/
+/frontend/*.tsbuildinfo
+
+# Archivos de configuración del editor
+/.vscode/
+/.idea/
+/*.sublime-*
+
+# Archivos de entorno
+/api/.env
+/api/.env.local
+/api/.env.development.local
+/api/.env.test.local
+/api/.env.production.local
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+# Archivos de registro
+/api/npm-debug.log*
+/api/yarn-debug.log*
+/api/yarn-error.log*
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# Directorios de sistema operativo
+/api.DS_Store
+/apiThumbs.db
+
+# Archivos de configuración de compilación
+/api/webpack.config.js
+/api/rollup.config.js
+/api/vite.config.js
+/frontend/webpack.config.js
+/frontend/rollup.config.js
+/frontend/vite.config.js
